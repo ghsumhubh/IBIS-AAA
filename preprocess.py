@@ -177,12 +177,22 @@ def preprocess_test_part_b():
 
 
 def main():
+    print('Preprocessing train data')
+    print('Converting .gz files to csv files')
     preprocess_train_part_a()
+    print('Combining csv files and adding labels')
     preprocess_train_part_b()
+    print('Adding aliens and shuffled sequences')
     preprocess_train_part_c()
+    print('Removing duplicates within the same cycle')
     preprocess_train_part_d()
+
+    print('Preprocessing test data')
+    print('Converting .fasta files to csv files')
     preprocess_test_part_a()
+    print('Creating test_sequences.csv')
     preprocess_test_part_b()
+    print('Preprocessing done')
 
     
 
