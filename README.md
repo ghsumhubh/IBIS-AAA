@@ -17,8 +17,8 @@ Extract the HTS folder to
 Run preprocess.py
 Run HTS.py
 
-
-Predictions should be at X/X/X
+HTS -> X predictions should be at 
+output/X/HTS/output_v35_1_2.tsv.gz
 
 
 

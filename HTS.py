@@ -10,7 +10,7 @@ import warnings
 warnings.filterwarnings('ignore', category=UserWarning) # some TF spam
 
 
-DUMMY_MODE = True # Set to true to check if the code runs without errors,
+DUMMY_MODE = False # Set to true to check if the code runs without errors,
 
     
 
