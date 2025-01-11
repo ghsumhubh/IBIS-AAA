@@ -1,5 +1,5 @@
 # IBIS AAA
-Our implementation of the AAA models for the 2024 [IBIS challenge](https://ibis.autosome.org/home)
+Our implementation of the AAA models for the 2024 [IBIS challenge](https://ibis.autosome.org/home) which achieved #1 place in the task of predicting protein binding in A2G (Artificial to Genomic) settings.
 
 ## Requirements
 We tested our software on the following configuration on a Linux machine:
